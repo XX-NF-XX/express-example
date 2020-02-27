@@ -1,0 +1,40 @@
+{
+  "endpoints": [
+    {
+      "path": "/",
+      "description": "List of available endpoints (you are here)"
+    },
+    {
+      "path": "/status",
+      "description": "uptime and freemem"
+    },
+    {
+      "path": "/status/uptime",
+      "description": "uptime only"
+    },
+    {
+      "path": "/status/freemem",
+      "description": "freemem only"
+    },
+    {
+      "path": "/env",
+      "description": "List of all env variables (Might be a long list!)"
+    },
+    {
+      "path": "/env/:VAR_NAME",
+      "description": "show a single env variable (try /env/HOME or /env/PWD or /env/AAA)"
+    },
+    {
+      "path": "/error/throw",
+      "description": "throw an error"
+    },
+    {
+      "path": "/error/throw-async",
+      "description": "throw an async error"
+    },
+    {
+      "path": "error/call-next",
+      "description": "call next function with an error"
+    }
+  ]
+}

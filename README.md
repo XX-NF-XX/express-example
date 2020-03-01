@@ -22,5 +22,5 @@
 - `/env` - List of all env variables (Might be a long list!)
 - `/env/:VAR_NAME` - show a single env variable (try `/env/HOME` or `/env/PWD` or `/env/AAA`)
 - `/error/throw` - throw an error
-- `/error/throw-async` - hrow an async error
+- `/error/throw-async` - throw an async error
 - `/error/call-next` - call next function with an error

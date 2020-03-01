@@ -13,7 +13,7 @@ router.get('/', express.static('static', staticOptions));
 // Show system status (uptime and/or freemem)
 router.use('/status', status);
 
-// Show env (full list or specific)
+// Show env (full list or single variable)
 router.use('/env', env);
 
 // Throw different types of errors
